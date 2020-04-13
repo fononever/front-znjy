@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src"],
+      "_CONFIG_/*": ["./src/config/*"],
+      "_SERVICE_/*": ["./src/service/*"],
+      "_STORE_/*": ["./src/store/*"],
+      "_VIEWS_/*": ["./src/views/*"],
+      "_PUBLIC_/*": ["./src/public/*"],
+      "_PLUGINS_/*": ["./src/public/plugins/*"],
+      "_COMPONENTS_/*": ["./src/components/*"],
+      "_UTILS_": ["./src/public/utils/"],
+      "_STYLUS_/*": ["./src/public/stylus/*"],
+      "_LIB_/*": ["./src/public/lib/*"]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+form()
+  .el-form-item
+    margin-bottom 24px
+
+    >>>.el-form-item__label
+      padding 0
+      color font-gray-color !important
+      line-height 32px
+
+      &:before
+        display none
+
+    >>>.el-form-item__content
+      line-height 32px
+
+      .el-input
+        width 390px
+
+      .el-textarea
+        width 400px
+
+      .el-date-editor
+        width 210px
+
+      .el-input__inner, .el-input__icon
+        height 32px
+        line-height 32px
+
+      .hidden
+        display none
+
+    &.text-item
+      >>>.el-form-item__label
+        line-height 21px
+
+      >>>.el-form-item__content
+        line-height 21px
+
+        .el-input__inner, .el-input__icon
+          height 21px
+          line-height 21px
+
+        .el-radio
+          height 21px
+          line-height 21px
+
+form-inline()
+  .el-form-item
+    margin 0 24px 0 0
+
+    >>>.el-form-item__label
+      padding 0
+      line-height 32px
+      color #606266
+
+    >>>.el-form-item__content
+      line-height 32px
+
+      .el-input
+        width 180px
+
+      .el-date-editor
+        width 210px
+
+      .el-input__inner, .el-input__icon
+        height 32px
+        line-height 32px
+
+      .hidden
+        display none

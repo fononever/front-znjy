@@ -1,0 +1,54 @@
+btn(width, height, background-color, font-size = font-size-default, border-radius = 4px)
+  display inline-block
+  width width
+  height height
+  border-radius border-radius
+  background-color background-color
+  font-size font-size
+  color #fff
+  line-height height
+  text-align center
+
+  if (background-color)
+    &:hover
+      background-color lighten(background-color, 15%)
+
+    &:active
+      background-color darken(background-color, 15%)
+
+btnInvert(width, height, background-color, font-size = font-size-default, border-radius = 3px)
+  display inline-block
+  width width
+  height height
+  border-radius border-radius
+  font-size font-size
+  line-height height - 2
+  text-align center
+
+  if (background-color == '#fff')
+    color #666
+    border 1px solid #ccc
+
+    &:hover
+      color color-blue
+      border-color lighten(color-blue, 15%)
+
+    &:active
+      color darken(color-blue, 15%)
+      border-color darken(color-blue, 15%)
+  else
+    color background-color
+    border 1px solid background-color
+
+    &:hover
+      background-color background-color
+      color #fff
+
+    &:active
+      background-color darken(background-color, 15%)
+
+hoverLucency(count = 0.8)
+  transition opacity 0.3s ease
+
+  &:hover
+    opacity count

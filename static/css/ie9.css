@@ -1,0 +1,23 @@
+/*
+ * @Author: tfq
+ * @Date: 2018-07-23 10:16:33
+ * @Last Modified by: tfq
+ * @Last Modified time: 2018-07-23 10:21:56
+ * @功能:
+ * @简介: 针对ie9，调整一些样式显示
+ * @RAP:
+ */
+
+.el-message .el-message__icon {
+  float: left;
+}
+
+.el-loading-mask {
+  background-image: url(/static/images/loading.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.el-loading-spinner {
+  display: none;
+}

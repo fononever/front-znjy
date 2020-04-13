@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <link rel="icon" href="/static/images/favicon.ico" />
+    <meta name="apple-itunes-app" content="app-id=1121566336" />
+    <title></title>
+
+    <style>
+      /* 加载中框架样式 */
+      body.loading {
+        height: 100vh;
+        background: #f0f3ef;
+      }
+
+      body.loading > p {
+        position: fixed;
+        display: block !important;
+        left: 50%;
+        top: 50%;
+        width: 300px;
+        height: 300px;
+        margin-top: -150px;
+        margin-left: -150px;
+        /* background: #f0f3ef url('/static/images/loading_page.gif?v=2') center center no-repeat; */
+      }
+    </style>
+  </head>
+
+  <body class="loading">
+    <!--[if lte IE 8]>
+      <style>
+        body {
+          background-color: #fff;
+        }
+        body.loading:before,
+        body.loading:after {
+          content: none;
+          display: none;
+        }
+        .ie-model {
+          margin-top: 100px;
+          text-align: center;
+        }
+        .ie-model-title {
+          font-size: 2em;
+          margin-bottom: 3em;
+        }
+        .ie-model-txt {
+          font-size: 1.6em;
+          margin-bottom: 3em;
+        }
+        .ie-model-li {
+          display: inline-block;
+          margin-right: 30px;
+        }
+        .ie-model-img {
+          width: 64px;
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+        .ie-model-link {
+          font-size: 1.2em;
+          text-decoration: underline;
+        }
+      </style>
+
+      <div class="ie-model">
+        <h1 class="ie-model-title">温馨提醒：您当前的浏览器版本过低，存在安全风险，请升级浏览器，并设置新安装的浏览器为默认浏览器。</h1>
+        <div class="ie-model-txt">推荐升级：</div>
+        <ul>
+          <li class="ie-model-li">
+            <img class="ie-model-img" src="/static/images/QQ.jpg" alt="QQ浏览器" />
+            <a class="ie-model-link" href="https://browser.qq.com/" target="_blank">QQ浏览器</a>
+          </li>
+          <li class="ie-model-li">
+            <img class="ie-model-img" src="/static/images/liebao.jpg" alt="猎豹浏览器" />
+            <a class="ie-model-link" href="https://www.liebao.cn/" target="_blank">猎豹浏览器</a>
+          </li>
+          <li class="ie-model-li">
+            <img class="ie-model-img" src="/static/images/chrome.jpg" alt="谷歌浏览器" />
+            <a class="ie-model-link" href="https://www.google.cn/chrome/" target="_blank">谷歌浏览器</a>
+          </li>
+          <li class="ie-model-li">
+            <img class="ie-model-img" src="/static/images/firefox.jpg" alt="火狐浏览器" />
+            <a class="ie-model-link" href="http://www.firefox.com.cn/" target="_blank">火狐浏览器</a>
+          </li>
+        </ul>
+      </div>
+    <![endif]-->
+
+    <!--[if IE 9]> <link rel="stylesheet" href="/static/css/ie9.css" /> <![endif]-->
+
+    <p style="display: none;"></p>
+
+    <div id="app"></div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+twoColumnsLayout(width, margin, isRightFixed = false)
+  clearfix()
+
+  &-left
+    if (isRightFixed)
+      overflow hidden
+    else
+      float left
+      width width
+      margin-right margin
+
+  &-right
+    if (isRightFixed)
+      float right
+      width width
+      margin-left margin
+    else
+      overflow hidden
+
+threeColumnsLayout(leftWidth = false, rightWidth = false)
+  clearfix()
+
+  &-left
+    float left
+
+    if (leftWidth)
+      width leftWidth
+
+  &-right
+    float right
+
+    if (rightWidth)
+      width rightWidth
+
+  &-center
+    overflow hidden
