@@ -59,7 +59,6 @@ const http = {
 export default {
   install(Vue, options) {
     Object.assign(defaultOptions, options)
-
     event.on('success', defaultOptions.onSuccess)
     event.on('error', defaultOptions.onError)
 

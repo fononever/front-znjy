@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
 import { smartProcessUrl } from '_UTILS_'
 export default {
   components: {},
@@ -34,9 +33,6 @@ export default {
       required: true,
       default: () => [],
     },
-  },
-  computed: {
-    ...mapState('User', ['theme']),
   },
   methods: {
     smartProcessUrl: smartProcessUrl,

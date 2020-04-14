@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    Header
+    //- Header
 
     transition(name="fade", mode="out-in")
       keep-alive
@@ -8,7 +8,7 @@
     transition(name="fade", mode="out-in")
       router-view(v-if="!$route.meta.keepAlive")
 
-    Footer
+    //- Footer
 
     vue-progress-bar
     //- vue-debug-tools(v-if="env === 'development'")

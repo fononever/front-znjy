@@ -2,7 +2,7 @@
 module.exports = {
   HOME_URL: '"/"',
   TITLE: '"四川中安锦业"',
-  MOCK_BASEURL: '',
+  MOCK_BASEURL: '""',
   REQUEST_MODEL: '"requestModel"',
   REQUEST_MODEL_DEFAULT: '"cn"',
   REQUEST_MOCK_PATH: '"mockPath"',
