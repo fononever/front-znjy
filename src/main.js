@@ -12,7 +12,7 @@ import Http from '_PLUGINS_/http'
 import VueProgressBar from '_PLUGINS_/progressbar'
 import eventBus from '_UTILS_/eventBus'
 
-import { Button, Loading, Icon, Message, MessageBox, Pagination, Carousel, CarouselItem } from 'element-ui'
+import { Button, Loading, Icon, Message, MessageBox, Pagination, Carousel, CarouselItem, Timeline, TimelineItem, Image } from 'element-ui'
 
 Vue.prototype.$eventBus = eventBus
 
@@ -29,6 +29,9 @@ Vue.use(Icon)
 Vue.use(Pagination)
 Vue.use(Carousel)
 Vue.use(CarouselItem)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
+Vue.use(Image)
 
 Vue.prototype.$loading = Loading.service
 Vue.prototype.$msgbox = MessageBox

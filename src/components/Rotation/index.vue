@@ -18,7 +18,7 @@ export default {
 @import '~_STYLUS_/variable'
 
 .banner-box
-  margin-bottom 84px
+  margin-bottom 60px
 
 .el-carousel
   width 100%
