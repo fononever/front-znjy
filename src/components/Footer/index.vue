@@ -9,7 +9,9 @@
   section
     .footer
       .flex
-        img(src="/static/images/logo.jpg")
+        .left
+          img(src="/static/images/logo.jpg")
+          a.block(href="http://www.sczajy.com/", target="_blank") 联系我们
         .right
           p.mb8 四川中安锦业机电工程有限公司 蜀ICP备10207363-1号
           p.mb8 公司电话：028-84544768  蜀ICP备10207363-1号
@@ -30,8 +32,12 @@ export default {
 @import '~_STYLUS_/variable'
 @import '~_STYLUS_/mixins'
 
+section
+  padding 25px 0 20px
+  background #f5f7fa
+
 .footer
-  margin 40px auto
+  margin 0 auto
   color #999999
   width 600px
   font-size 12px
@@ -39,11 +45,15 @@ export default {
   .flex
     align-items center
 
-  .left
-    width 400px
-
   .right
     padding-left 24px
+
+  .left
+    a
+      margin-top 10px
+      color color-theme
+      font-size 16px
+      text-align center
 
 .fontBold
   margin-top 20px
