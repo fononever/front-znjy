@@ -1,14 +1,16 @@
 /*
  * @Author: tfq
  * @Date: 2020-03-04 11:01:10
- * @Last Modified by: tufengqun
- * @Last Modified time: 2020-04-15 23:39:33
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2020-04-16 21:20:40
  * @功能: 全局常量
  * @简介:
  * @RAP:
  */
 
 const CONFIG = {
+  introductionSmall:
+    '四川中安锦业机电工程有限公司成立于2010年，公司注册资本3010万元人民币，自2016年以来相继获得国家建设行政部门核发的建筑机电设备安装工程专业承包一级、消防设施设备工程专业承包一级、电子与智能化专业承包一级、建筑装饰装修工程专业承包一级、机电总承包三级、输变电工程三级、电力工程施工总承包三级的综合性公司；同时公司获得ISO9001管理体系认证。公司本着面向未来，创新务实的精神，从战略的高度将公司业务发展为：共享服务板块与工程项目板块。',
   introduction: [
     '四川中安锦业机电工程有限公司成立于2010年，公司注册资本3010万元人民币，自2016年以来相继获得国家建设行政部门核发的建筑机电设备安装工程专业承包一级、消防设施设备工程专业承包一级、电子与智能化专业承包一级、建筑装饰装修工程专业承包一级、机电总承包三级、输变电工程三级、电力工程施工总承包三级的综合性公司；同时公司获得ISO9001管理体系认证。公司本着面向未来，创新务实的精神，从战略的高度将公司业务发展为：共享服务板块与工程项目板块。',
     '共享服务板块：1、战略合作与融资平台服务；2、专业的采购配送服务3、工程造价咨询服务4、工程设计咨询技术服务。目标：服务质量更加专业化和具有针对性，建立统一的服务标准和流程，实现服务专业化和标准化---实现高效省薪专业。',
@@ -69,27 +71,216 @@ const CONFIG = {
     },
   ],
   zzImg: [
-    '/static/images/common/zz1.png',
-    '/static/images/common/zz3.png',
-    '/static/images/common/zz4.png',
-    '/static/images/common/zz5.png',
+    '/static/images/common/zizhi/zz1.png',
+    '/static/images/common/zizhi/zz3.png',
+    '/static/images/common/zizhi/zz4.png',
+    '/static/images/common/zizhi/zz5.png',
   ],
   zzFile: [
     {
       name: '公司营业执照',
-      imgUrl: '/static/images/common/zz1.png',
+      imgUrl: '/static/images/common/zizhi/zz1.png',
     },
     {
       name: '建筑业企业资质证书',
-      imgUrl: '/static/images/common/zz3.png',
+      imgUrl: '/static/images/common/zizhi/zz3.png',
     },
     {
       name: '安全生产许可证执照',
-      imgUrl: '/static/images/common/zz4.png',
+      imgUrl: '/static/images/common/zizhi/zz4.png',
     },
     {
       name: '质量管理体系认证',
-      imgUrl: '/static/images/common/zz5.png',
+      imgUrl: '/static/images/common/zizhi/zz5.png',
+    },
+  ],
+  produce: [
+    {
+      name: '舒适型空调',
+      children: [
+        {
+          name: '螺杆式冷水机组',
+          imgUrl: '/static/images/common/produce/1-1.png',
+          desc: '',
+        },
+        {
+          name: '卧式风机盘管机组',
+          imgUrl: '/static/images/common/produce/1-2.png',
+          desc: '',
+        },
+        {
+          name: '吊顶柜式风机盘管机组',
+          imgUrl: '/static/images/common/produce/1-3.png',
+          desc: '',
+        },
+        {
+          name: '四面出风风机盘管机组',
+          imgUrl: '/static/images/common/produce/1-4.png',
+          desc: '',
+        },
+        {
+          name: '组合式空调机组',
+          imgUrl: '/static/images/common/produce/1-5.png',
+          desc: '',
+        },
+        {
+          name: '离心式冷水机组',
+          imgUrl: '/static/images/common/produce/1-6.png',
+          desc: '',
+        },
+        {
+          name: '风冷热泵式冷水机组',
+          imgUrl: '/static/images/common/produce/1-7.png',
+          desc: '',
+        },
+      ],
+    },
+    {
+      name: '净化型空调',
+      children: [
+        {
+          name: '医院洁净手术室',
+          imgUrl: '/static/images/common/produce/2-1.png',
+          desc: '',
+        },
+        {
+          name: '电解板手术室工程',
+          imgUrl: '/static/images/common/produce/2-2.png',
+          desc: '',
+        },
+        {
+          name: 'ICU大厅工程',
+          imgUrl: '/static/images/common/produce/2-3.png',
+          desc: '',
+        },
+        {
+          name: '玻镁板工程',
+          imgUrl: '/static/images/common/produce/2-4.png',
+          desc: '',
+        },
+        {
+          name: '美容整形手术室工程',
+          imgUrl: '/static/images/common/produce/2-5.png',
+          desc: '',
+        },
+        {
+          name: '外科手术室净化工程',
+          imgUrl: '/static/images/common/produce/2-6.png',
+          desc: '',
+        },
+        {
+          name: '眼科手术室工程',
+          imgUrl: '/static/images/common/produce/2-7.png',
+          desc: '',
+        },
+      ],
+    },
+  ],
+  engineering: [
+    {
+      name: '中央空调案例',
+      children: [
+        {
+          name: '成都泸州老窖大酒店',
+          imgUrl: '/static/images/common/engineering/1-1.png',
+          desc: '',
+        },
+        {
+          name: '成都住电线束公司厂区',
+          imgUrl: '/static/images/common/engineering/1-2.png',
+          desc: '',
+        },
+        {
+          name: '梅朵天堂酒店',
+          imgUrl: '/static/images/common/engineering/1-3.png',
+          desc: '',
+        },
+        {
+          name: '什邡市妇幼保健院为一级甲等妇幼保健院',
+          imgUrl: '/static/images/common/engineering/1-4.png',
+          desc: '',
+        },
+        {
+          name: '四川省艺术学院剧场',
+          imgUrl: '/static/images/common/engineering/1-5.png',
+          desc: '',
+        },
+        {
+          name: '天府国际城',
+          imgUrl: '/static/images/common/engineering/1-6.png',
+          desc: '',
+        },
+        {
+          name: '天府新区进口产品交易中心',
+          imgUrl: '/static/images/common/engineering/1-7.png',
+          desc: '',
+        },
+        {
+          name: '营山亿联五金商贸城',
+          imgUrl: '/static/images/common/engineering/1-8.png',
+          desc: '',
+        },
+        {
+          name: '中国兵器集团北区304建筑物中央空调及通风工',
+          imgUrl: '/static/images/common/engineering/1-9.png',
+          desc: '',
+        },
+        {
+          name: '中国西北（安康）国际天贸城',
+          imgUrl: '/static/images/common/engineering/1-10.png',
+          desc: '',
+        },
+      ],
+    },
+    {
+      name: '清洁空调案例',
+      children: [
+        {
+          name: '巴中市中心医院',
+          imgUrl: '/static/images/common/engineering/2-1.png',
+          desc: '',
+        },
+        {
+          name: '眉山市人民医院外科大楼',
+          imgUrl: '/static/images/common/engineering/2-2.png',
+          desc: '',
+        },
+        {
+          name: '宜宾李庄同济医院',
+          imgUrl: '/static/images/common/engineering/2-3.png',
+          desc: '',
+        },
+        {
+          name: '梓潼县人民医院',
+          imgUrl: '/static/images/common/engineering/2-4.png',
+          desc: '',
+        },
+      ],
+    },
+    {
+      name: '弱电及消防智能化工程案例',
+      children: [
+        {
+          name: '成都市第七医院天府医院项目二期消防工程',
+          imgUrl: '/static/images/common/engineering/3-1.png',
+          desc: '',
+        },
+        {
+          name: '崇州市看守所武警“智慧磐石”科技强勤平台建设系统采购项目',
+          imgUrl: '/static/images/common/engineering/3-2.png',
+          desc: '',
+        },
+        {
+          name: '仁寿运长医院',
+          imgUrl: '/static/images/common/engineering/3-3.png',
+          desc: '',
+        },
+        {
+          name: '新津南岸华庭消防、通风工程',
+          imgUrl: '/static/images/common/engineering/3-4.png',
+          desc: '',
+        },
+      ],
     },
   ],
 }

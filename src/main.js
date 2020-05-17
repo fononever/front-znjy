@@ -2,17 +2,17 @@ import Vue from 'vue'
 import 'babel-polyfill'
 import '_UTILS_/rAF'
 import 'normalize.css'
-import '_PLUGINS_/element'
+import 'viewerjs/dist/viewer.css'
 
 import App from './App'
 import router from './router'
 import store from './store'
+import Viewer from 'v-viewer'
 
+import ElementUI from '_PLUGINS_/element'
 import Http from '_PLUGINS_/http'
 import VueProgressBar from '_PLUGINS_/progressbar'
 import eventBus from '_UTILS_/eventBus'
-
-import { Button, Loading, Icon, Message, MessageBox, Pagination, Carousel, CarouselItem, Timeline, TimelineItem, Image } from 'element-ui'
 
 Vue.prototype.$eventBus = eventBus
 
@@ -23,23 +23,10 @@ Vue.use(VueProgressBar)
 
 Vue.config.productionTip = false
 
-Vue.use(Button)
-Vue.use(Loading)
-Vue.use(Icon)
-Vue.use(Pagination)
-Vue.use(Carousel)
-Vue.use(CarouselItem)
-Vue.use(Timeline)
-Vue.use(TimelineItem)
-Vue.use(Image)
+Vue.use(ElementUI)
+Vue.use(Viewer)
 
-Vue.prototype.$loading = Loading.service
-Vue.prototype.$msgbox = MessageBox
-Vue.prototype.$alert = MessageBox.alert
-Vue.prototype.$confirm = MessageBox.confirm
-Vue.prototype.$prompt = MessageBox.prompt
-Vue.prototype.$message = Message
-
+store.dispatch('User/getPageData')
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -1,15 +1,21 @@
 <template lang="pug">
   .banner-box
-    el-carousel(trigger="click", :height="`348px`", arrow="hover")
-      el-carousel-item(v-for="(item, index) in rotation", :key="index")
-        .preview(:class="`bg${index}`")
+    el-carousel(trigger="click", :height="`348px`", :arrow="arrow")
+      el-carousel-item(v-for="(item, index) in routationData", :key="index")
+        .preview(:style="`background: url('${imgDomain}${item}') top center no-repeat;background-size:cover`")
 </template>
 <script>
+import { mapState, mapGetters } from 'vuex'
 export default {
   data() {
-    return {
-      rotation: [{}, {}, {}],
-    }
+    return {}
+  },
+  computed: {
+    ...mapState('User', ['imgDomain']),
+    ...mapGetters('User', ['routationData']),
+    arrow() {
+      return this.routationData.length > 1 ? 'hover' : 'never'
+    },
   },
 }
 </script>
@@ -18,7 +24,7 @@ export default {
 @import '~_STYLUS_/variable'
 
 .banner-box
-  margin-bottom 60px
+  margin-bottom module-bottom
 
 .el-carousel
   width 100%
@@ -44,16 +50,7 @@ export default {
   display inline-block
   width 100%
   height 348px
-
-  &.bg0
-    background url('./images/rotation1.jpg') top center no-repeat
-    background-size cover
-
-  &.bg1
-    background url('./images/rotation2.jpg') top center no-repeat
-    background-size cover
-
-  &.bg2
-    background url('./images/rotation3.jpg') top center no-repeat
-    background-size cover
+  // &.bg0
+  // background url('./images/rotation1.jpg') top center no-repeat
+  // background-size cover
 </style>

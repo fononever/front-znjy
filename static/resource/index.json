@@ -1,0 +1,127 @@
+{
+  "banner": ["/banner/0516.png"],
+
+  "prodNav": [
+    {
+      "name": "冷水，热泵机组",
+      "prod": [
+        {
+          "name": "YCAE-130X",
+          "image": "/prod/machine/YCAE-130X/YCAE-X.jpg",
+          "data": "/prod/machine/YCAE-130X/msg.json"
+        },
+        {
+          "name": "YCAE-D",
+          "image": "/prod/machine/YCAE-D/YCAE130.jpg",
+          "data": "/prod/machine/YCAE-D/msg.json"
+        },
+        {
+          "name": "YCAE-E,P",
+          "image": "/prod/machine/YCAE-E,P/YCAE130.jpg",
+          "data": "/prod/machine/YCAE-E,P/msg.json"
+        },
+        {
+          "name": "YCAE-G",
+          "image": "/prod/machine/YCAE-G/YCAE45-65.png",
+          "data": "/prod/machine/YCAE-G/msg.json"
+        },
+        {
+          "name": "YCAE-G小型号",
+          "image": "/prod/machine/YCAE-G-S/YCAE-G-S.png",
+          "data": "/prod/machine/YCAE-G-S/msg.json"
+        },
+        {
+          "name": "YCWE-E水，地源热泵机组",
+          "image": "/prod/machine/YCWE-E-W/YCWE-E.png",
+          "data": "/prod/machine/YCWE-E-W/msg.json"
+        },
+        {
+          "name": "YGWE螺杆式冷水机组",
+          "image": "/prod/machine/YGWE-C-W/YGWE.png",
+          "data": "/prod/machine/YCAE-C-W/msg.json"
+        },
+        {
+          "name": "YGWS,YGWP,YGWT螺杆式热泵，冷水机组",
+          "image": "/prod/machine/YGWS,YGWP,YGWT/YGWS.png",
+          "data": "/prod/machine/YGWS,YGWP,YGWT/msg.json"
+        },
+        {
+          "name": "YGWT高效螺杆式热泵机组",
+          "image": "/prod/machine/YGWT-F-H/YGWT.png",
+          "data": "/prod/machine/YGWT-F-H/msg.json"
+        },
+        {
+          "name": "YK离心式冷水机组",
+          "image": "/prod/machine/YK-C-W/YK.jpg",
+          "data": "/prod/machine/YK-C-W/msg.json"
+        },
+        {
+          "name": "YLAA,YLPA风冷涡旋式冷水,热泵机组",
+          "image": "/prod/machine/YLAA,YLPA/YLPA.png",
+          "data": "/prod/machine/YLAA,YLPA/msg.json"
+        },
+        {
+          "name": "YMPA变频风冷涡旋式热泵机组",
+          "image": "/prod/machine/YMPA-C-H/YMPA.png",
+          "data": "/prod/machine/YMPA-C-H/msg.json"
+        },
+        {
+          "name": "YVAE-130X",
+          "image": "/prod/machine/YVAE-130X/YVAE-X.png",
+          "data": "/prod/machine/YVAE-130X/msg.json"
+        }
+      ]
+    },
+
+    {
+      "name": "末端产品",
+      "prod": [
+        {
+          "name": "YBAH吊顶式空气处理机组",
+          "image": "/prod/endProducts/YBAH-UP-AIR/YBAH.png",
+          "data": "/prod/endProducts/YBAH-UP-AIR/msg.json"
+        },
+        {
+          "name": "YBCM组合式空气处理机组",
+          "image": "/prod/endProducts/YBCM-CMP-AIR/YBCM.png",
+          "data": "/prod/endProducts/YBCM-CMP-AIR/msg.json"
+        },
+        {
+          "name": "YBFC吊顶式风机盘管",
+          "image": "/prod/endProducts/YBFC-UP/YBFC-J.jpg",
+          "data": "/prod/endProducts/YBFC-UP/msg.json"
+        },
+        {
+          "name": "YBSE立式卧式空气处理机组",
+          "image": "/prod/endProducts/YBSE-ST/YBSE.png",
+          "data": "/prod/endProducts/YBSE-ST/msg.json"
+        },
+        {
+          "name": "YJFC净化型风机盘管",
+          "image": "/prod/endProducts/YJFC-CL/YJFC.png",
+          "data": "/prod/endProducts/YJFC-CL/msg.json"
+        },
+        {
+          "name": "YKFC四出风型风机盘管",
+          "image": "/prod/endProducts/YKFC-OUT/YKFC.png",
+          "data": "/prod/endProducts/YKFC-OUT/msg.json"
+        }
+      ]
+    },
+    {
+      "name": "温控器",
+      "prod": [
+        {
+          "name": "T8000系",
+          "image": "/prod/controller/T8000/T8600.png",
+          "data": "/prod/controller/T8000/msg.json"
+        },
+        {
+          "name": "TMS-2000系",
+          "image": "/prod/controller/TMS-2000/TMS2000.png",
+          "data": "/prod/controller/TMS-2000/msg.json"
+        }
+      ]
+    }
+  ]
+}
