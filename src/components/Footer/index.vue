@@ -18,6 +18,8 @@
           p.mb8 公司邮箱：1052481000@qq.com
           p.mb8 公司地址：成都市锦江区二环路东五段239号华润广场B座507号
           p.mb8 公司邮编：610000
+          p.mb8 公司官网：
+            a(href="http://www.sczajy.com/", target="_blank") http://www.sczajy.com/
       div.fontBold Copyright &copy; 2015, 四川中安锦业机电工程有限公司所有, All Rights Reserved
 </template>
 

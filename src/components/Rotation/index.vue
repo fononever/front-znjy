@@ -1,6 +1,6 @@
 <template lang="pug">
   .banner-box
-    el-carousel(trigger="click", :height="`348px`", :arrow="arrow")
+    el-carousel(trigger="click", :height="`348px`", :arrow="arrow", indicator-position="none")
       el-carousel-item(v-for="(item, index) in routationData", :key="index")
         .preview(:style="`background: url('${imgDomain}${item}') top center no-repeat;background-size:cover`")
 </template>

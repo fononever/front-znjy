@@ -54,7 +54,8 @@
           .h5-box.text-center(v-if="item.type === 'h5'")
             h5 {{item.content}}
 
-
+      .product-details.flex-1(v-else)
+        img(src="./images/index_right.jpg")
     Footer
 
 
@@ -88,7 +89,7 @@ export default {
     ...mapState('User', ['imgDomain']),
   },
   created() {
-    this.collapseIndex(0)
+    // this.collapseIndex(0)
   },
   methods: {
     ...mapActions('User', ['getJsonData']),
